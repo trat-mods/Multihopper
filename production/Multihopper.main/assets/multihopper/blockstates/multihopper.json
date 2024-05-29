@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "multihopper:block/multihopper/multihopper"
+    },
+    "facing=down": {
+      "model": "multihopper:block/multihopper/multihopper"
+    },
+    "facing=north": {
+      "model": "multihopper:block/multihopper/multihopper_side"
+    },
+    "facing=south": {
+      "model": "multihopper:block/multihopper/multihopper_side",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "multihopper:block/multihopper/multihopper_side",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "multihopper:block/multihopper/multihopper_side",
+      "y": 90
+    }
+  }
+}

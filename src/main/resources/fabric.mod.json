@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "multihopper",
+  "version": "${version}",
+  "name": "Multihopper",
+  "description": "A smart hopper that does not get clogged with items",
+  "authors": [
+    "trat"
+  ],
+  "contact": {
+    "homepage": "https://github.com/trat-mods/Multihopper",
+    "sources": "https://github.com/trat-mods/Multihopper",
+    "issues": "https://github.com/trat-mods/Multihopper/issues"
+  },
+  "license": "GPL-2.0",
+  "icon": "assets/multihopper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.multihopper.loaders.MultihopperLoader"
+    ],
+    "client": [
+      "net.multihopper.loaders.MultihopperClientLoader"
+    ]
+  },
+  "mixins": [
+    "multihopper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "minecraft": "~1.20.6",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
