@@ -4,7 +4,7 @@
 
 ## Functionality
 
-> [!INFO]
+> [!NOTE]
 > The Multihopper is used to transfer multiple item types with a single hopper by preventing the hopper to get clogged
 > with items of the same type.
 
@@ -34,6 +34,6 @@ However, with a Multihopper, we can fix this with a single block.
 Once an item enters the Multihopper, it fills the first available slot. From that point on, that slot will be dedicated
 only to that type of item, preventing items of the same type to fill other slots of the Multihopper.
 
-> [!CAUTION]
+> [!WARNING]
 > If the streams transfer big quantities of items, a single Multihopper may lose some of them since it can hold a single
 > stack of each item type. In this case it is possible to use more Multihoppers in serie to catch all the items.
