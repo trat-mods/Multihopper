@@ -30,7 +30,7 @@ import net.multihopper.loaders.MultihopperLoader;
 import org.jetbrains.annotations.Nullable;
 
 public class MultihopperBlock extends BlockWithEntity {
-    public static final Identifier ID = Identifier.of(MultihopperLoader.MOD_ID, "multihopper");
+    public static final Identifier ID = new Identifier(MultihopperLoader.MOD_ID, "multihopper");
 
     public static final DirectionProperty FACING;
     public static final BooleanProperty ENABLED;
